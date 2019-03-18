@@ -1,0 +1,5 @@
+ngx_addon_name=ngx_http_mytest_module
+ngx_addon_type=HTTP
+ngx_module_name=ngx_http_mytest_module
+ngx_module_srcs="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_mytest_module.c"
+. auto/module
