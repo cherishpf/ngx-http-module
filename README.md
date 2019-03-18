@@ -18,19 +18,22 @@ gmake install
 
 配置nginx.conf
 
-location /test {
+{
 
-    mytest helloworld;
+    location /test {
+
+        mytest helloworld;
     
-}
+    }
 
 
-location /test2 {
-
-    mytest sendfile;
+    location /test2 {
+        
+        mytest sendfile;
     
-}
+    }
 
+}
 
 2、C++开发的模块
 
@@ -70,8 +73,8 @@ gmake install
 
 配置nginx.conf
 
-location /test {
+    location /test {
 
-    shellface helloworld;
+        shellface helloworld;
     
-}
+    }
