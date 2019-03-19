@@ -9,6 +9,6 @@ C++:
 ngx_addon_name=ngx_http_shellface_module
 ngx_addon_type=HTTP
 ngx_module_name=ngx_http_shellface_module
-ngx_module_srcs="$NGX_ADDON_SRCS /data/ngx_http_shellface_module.cpp"
-ngx_module_libs="/data/lib/libsqlite3.so"
+ngx_module_srcs="$NGX_ADDON_SRCS /data/mymodule/ngx_http_shellface_module.cpp"
+ngx_module_libs="/data/mymodule/lib/libsqlite3.so"
 . auto/module
