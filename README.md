@@ -2,7 +2,7 @@
 
 nginx http dynamic module, c and c++ demo
 
-使用Openresty编译自定义的nginx模块
+使用Openresty编译自定义的nginx动态模块
 
 1、c语言开发的模块
 
